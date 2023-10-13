@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: #2f1893;
+}
+.navbar {
+  padding: 0 80px;
+  margin: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftnav {
+  font-size: x-large;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.rightnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.rightnav a {
+  margin-left: 30px;
+  font-size: large;
+  color: #ffffff;
+}
+
+.ssign {
+  background-color: #482be7;
+  padding: 13px 30px;
+  color: #ffffff;
+  border-radius: 60px;
+}
+.tagline {
+  width: 700px;
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  left: 30%;
+  top: 30%;
+  word-spacing: 5px;
+  font-stretch: semi-expanded;
+}
+.pitch {
+  width: 630px;
+  font-size: x-large;
+  flex-wrap: wrap;
+  color: #ffffff;
+  text-align: center;
+  height: 150px;
+  line-height: 35px;
+  position: relative;
+  left: 32%;
+  margin-top: 30px;
+  /* word-spacing: 5px; */
+}
+.buy a {
+  width: max-content;
+  font-size: large;
+  background-color: #25dac5;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 60px;
+  font-weight: 600;
+}
+.more {
+  color: #6251ad;
+  font-size: large;
+  position: relative;
+  left: 40%;
+  margin-top: 20px;
+}
+.buy {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 35%;
+  top: 62%;
+}
+.buy input {
+  border: 2px solid #6251ad;
+  margin: 10px;
+  width: 400px;
+  height: 60px;
+  border-radius: 60px;
+  font-size: 17px;
+}
+.buy ::placeholder {
+  padding-left: 50px;
+  font-size: large;
+}
